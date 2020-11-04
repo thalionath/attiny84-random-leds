@@ -81,6 +81,7 @@ int main(void)
 	
 	_delay_ms(5000);
 
+	PORTB = 0;
 	DDRB = 0;
 
 	set_sleep_mode(SLEEP_MODE_PWR_DOWN);
